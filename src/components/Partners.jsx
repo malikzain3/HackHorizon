@@ -3,8 +3,13 @@ import Reveal from './Reveal'
 export default function Partners() {
   const partners = [
     { name: 'BLACKBOX — IIUI', img: '/Blackbox.jpg' },
-    { name: 'Coputer Science Society', img: '/css.jpg' },
-    { name: 'CyberInfinity', img: '/cyber.jpeg' },
+    { name: 'The Coputer Science Society', img: '/css.jpg' },
+    { name: 'Cyber Infinity RIU', img: '/cyber.jpeg' },
+    { name: 'GDGoC IIUI', img: '/GDGoC.png' },
+    { name: 'CAUSE Society', img: '/cause.png' },
+    { name: 'AWS SBG', img: '/aws.png' },
+    { name: 'Farabi Science Society', img: '/farabi.jpg' },
+    { name: 'AUCIS', img: '/AUCIS.jpeg' },
   ]
 
   return (
