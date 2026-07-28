@@ -17,7 +17,7 @@ export default function Partners() {
     <section id="partners" className="py-14 md:py-20 px-5 md:px-8">
       <div className="max-w-6xl mx-auto">
         <Reveal>
-          <p className="section-eyebrow mb-3">Community</p>
+          <p className="section-eyebrow mb-3">Community Partners</p>
           <h2 className="section-title mb-4">
             Powered by <span className="text-electric">SENSE IIUI</span>
           </h2>
