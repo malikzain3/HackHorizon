@@ -13,7 +13,7 @@ export default function Hero({ onRegisterClick }) {
       </div>
       <div className="max-w-7xl mx-auto w-full overflow-hidden grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center relative">
         <Reveal direction="left">
-          <div className="w-full overflow-hidden ml-10">
+          <div className="w-full overflow-hidden ">
             <div className="inline-flex max-w-full items-center gap-2 px-3 py-1.5 rounded-full border border-electric/40 mb-6">
               <span className="w-1.5 h-1.5 rounded-full bg-electric animate-pulse" />
               <span className="section-eyebrow break-words">
