@@ -1,22 +1,25 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useState } from "react";
+
+const REGISTRATION_FORM_URL =
+  "https://docs.google.com/forms/d/e/1FAIpQLSc887ITa9I2rgWcvSNfhCJGJTBZZdso8IWvzjN8OXXKFkkZjQ/viewform"
 
 export default function EntryModal() {
-  const [open, setOpen] = useState(false)
+  const [open, setOpen] = useState(false);
 
   useEffect(() => {
-    const seen = sessionStorage.getItem('hh26_modal_seen')
+    const seen = sessionStorage.getItem("hh26_modal_seen");
     if (!seen) {
-      const t = setTimeout(() => setOpen(true), 400)
-      return () => clearTimeout(t)
+      const t = setTimeout(() => setOpen(true), 400);
+      return () => clearTimeout(t);
     }
-  }, [])
+  }, []);
 
   const close = () => {
-    setOpen(false)
-    sessionStorage.setItem('hh26_modal_seen', '1')
-  }
+    setOpen(false);
+    sessionStorage.setItem("hh26_modal_seen", "1");
+  };
 
-  if (!open) return null
+  if (!open) return null;
 
   return (
     <div className="fixed inset-0 z-[100] flex items-center justify-center bg-black/80 backdrop-blur-sm px-4">
@@ -30,7 +33,8 @@ export default function EntryModal() {
         </button>
         <p className="section-eyebrow mb-3">SENSE · IIUI presents</p>
         <h2 className="font-display font-extrabold text-2xl md:text-3xl leading-tight mb-2">
-          REGISTRATIONS<br />
+          REGISTRATIONS
+          <br />
           <span className="text-electric">OPEN</span>
         </h2>
         <div className="h-px bg-gradient-to-r from-transparent via-electric/60 to-transparent my-4" />
@@ -38,8 +42,9 @@ export default function EntryModal() {
           Be part of Pakistan's Human vs AI hackathon showdown.
         </p>
         <a
-          href="#register"
-          onClick={close}
+          href={REGISTRATION_FORM_URL}
+          target="_blank"
+          rel="noopener noreferrer"
           className="inline-block w-full py-3 rounded-lg bg-electric text-void font-display font-bold tracking-wide hover:bg-electric2 transition-colors"
         >
           REGISTER NOW »
@@ -47,5 +52,5 @@ export default function EntryModal() {
         <p className="mt-4 text-xs text-steel font-mono">#HackHorizon26</p>
       </div>
     </div>
-  )
+  );
 }

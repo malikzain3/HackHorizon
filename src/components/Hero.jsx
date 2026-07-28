@@ -6,14 +6,14 @@ export default function Hero({ onRegisterClick }) {
   return (
     <section
       id="top"
-      className="relative pt-28 pb-16 md:pt-26 md:pb-16 px-5 md:px-8 overflow-hidden"
+      className="relative pt-28 pb-16 md:pt-30 md:pb-16 px-5 md:px-8 overflow-hidden "
     >
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute -top-20 left-1/3 w-[500px] h-[500px] bg-electric/10 rounded-full blur-[120px]" />
       </div>
       <div className="max-w-7xl mx-auto w-full overflow-hidden grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center relative">
         <Reveal direction="left">
-          <div className="w-full overflow-hidden">
+          <div className="w-full overflow-hidden ml-10">
             <div className="inline-flex max-w-full items-center gap-2 px-3 py-1.5 rounded-full border border-electric/40 mb-6">
               <span className="w-1.5 h-1.5 rounded-full bg-electric animate-pulse" />
               <span className="section-eyebrow break-words">
@@ -62,7 +62,7 @@ export default function Hero({ onRegisterClick }) {
         </Reveal>
 
         <Reveal direction="right" delay={150}>
-          <div className="relative flex justify-center items-center w-full">
+          <div className="relative flex justify-center items-center w-full ml-10">
             <img
               src="/pakmap.png"
               alt="Pakistan Map"
