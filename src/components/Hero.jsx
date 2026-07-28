@@ -62,7 +62,7 @@ export default function Hero({ onRegisterClick }) {
         </Reveal>
 
         <Reveal direction="right" delay={150}>
-          <div className="relative flex justify-center items-center w-full ml-10">
+          <div className="relative flex justify-center items-center w-full">
             <img
               src="/pakmap.png"
               alt="Pakistan Map"
