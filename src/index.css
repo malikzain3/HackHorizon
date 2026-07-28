@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-void text-silver font-body;
+  background-image:
+    linear-gradient(rgba(47, 184, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(47, 184, 255, 0.05) 1px, transparent 1px);
+  background-size: 44px 44px;
+  background-attachment: fixed;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #05070d;
+}
+::-webkit-scrollbar-thumb {
+  background: #1478c9;
+  border-radius: 4px;
+}
+
+:focus-visible {
+  outline: 2px solid #2fb8ff;
+  outline-offset: 2px;
+}
+
+.section-eyebrow {
+  @apply font-mono text-xs tracking-[0.3em] uppercase text-electric/80;
+}
+
+.section-title {
+  @apply font-display font-bold text-3xl md:text-5xl text-silver;
+}
+
+.card-panel {
+  @apply bg-panel/70 border border-steel/20 rounded-xl backdrop-blur-sm;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+html,
+body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+#root {
+  width: 100%;
+  overflow-x: hidden;
+}
