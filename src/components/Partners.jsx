@@ -10,6 +10,7 @@ export default function Partners() {
     { name: 'AWS SBG', img: '/aws.png' },
     { name: 'Farabi Science Society', img: '/farabi.jpg' },
     { name: 'AUCIS', img: '/AUCIS.jpeg' },
+    { name: 'MCS NUST', img: '/MCS.jpeg' },
   ]
 
   return (
