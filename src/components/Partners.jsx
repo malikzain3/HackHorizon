@@ -14,6 +14,7 @@ export default function Partners() {
   ]
 
   return (
+    
     <section id="partners" className="py-14 md:py-20 px-5 md:px-8">
       <div className="max-w-6xl mx-auto">
         <Reveal>
