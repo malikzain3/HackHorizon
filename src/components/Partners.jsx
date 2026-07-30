@@ -11,6 +11,8 @@ export default function Partners() {
     { name: 'Farabi Science Society', img: '/farabi.jpg' },
     { name: 'AUCIS', img: '/AUCIS.jpeg' },
     { name: 'MCS NUST', img: '/MCS.jpeg' },
+    { name: 'VINCIO Tech', img: '/vincio.jpg' },
+    { name: 'Code Voyagers', img: '/codevoyagers.jpg' },
   ]
 
   return (
