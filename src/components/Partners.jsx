@@ -16,6 +16,8 @@ export default function Partners() {
     { name: 'MCS NUST', img: '/MCS.jpeg' },
     { name: 'VINCIO Tech', img: '/vincio.jpg' },
     { name: 'Code Voyagers', img: '/codevoyagers.jpg' },
+    { name: 'Society Circle', img: '/circle.jpeg' },
+    
   ]
 
   return (
