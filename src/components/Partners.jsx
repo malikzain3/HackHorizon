@@ -25,9 +25,19 @@ export default function Partners() {
           <h2 className="section-title mb-4">
             Powered by <span className="text-electric">SENSE IIUI</span>
           </h2>
-          <p className="text-steellight max-w-xl mb-10">
+          <p className="text-steellight max-w-xl mb-6">
             Organized by SENSE — Software Engineering Society for Excellence, International Islamic University Islamabad — alongside our growing list of community & venue partners.
           </p>
+          <div className="mb-10">
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdInZLZxfRTK0ee7OVya2xD2R8wxTxRfmF2wYpdF_hHB3ZyWg/viewform"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-electric text-void font-display font-bold hover:bg-electric2 transition-colors shadow-lg shadow-electric/20"
+            >
+              Become a Community Partner →
+            </a>
+          </div>
           <p className="section-eyebrow mb-3">Partners</p>
         </Reveal>
 
