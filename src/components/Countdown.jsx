@@ -3,7 +3,7 @@ import { EVENT } from '../data/content'
 
 function getPhase() {
   if (!EVENT.orientationDate || !EVENT.hackathonStartDate) {
-    return { label: 'Dates Extended — To Be Announced Soon', target: null }
+    return { label: 'Dates To Be Announced', target: null }
   }
 
   const now = new Date()
