@@ -35,9 +35,12 @@ export default function EntryModal() {
         <h2 className="font-display font-extrabold text-2xl md:text-3xl leading-tight mb-2">
           REGISTRATIONS
           <br />
-          <span className="text-electric">OPEN</span>
+          <span className="text-electric">EXTENDED</span>
         </h2>
         <div className="h-px bg-gradient-to-r from-transparent via-electric/60 to-transparent my-4" />
+        <p className="text-electric text-xs font-mono mb-2 uppercase tracking-wider">
+          Dates Extended — Will Be Announced Soon
+        </p>
         <p className="text-steellight text-sm mb-6">
           Be part of Pakistan's Human vs AI hackathon showdown.
         </p>
