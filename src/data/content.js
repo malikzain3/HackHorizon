@@ -2,13 +2,13 @@ export const EVENT = {
   name: "HackHorizon '26",
   tagline: 'Human Intelligence vs Artificial Intelligence',
   subtagline: 'Clash of the Finest — Build. Battle. Innovate.',
-  orientationDate: '2026-08-17T10:00:00',
-  orientationEndDate: '2026-08-17T12:00:00',
-  hackathonStartDate: '2026-08-20T08:30:00',
-  hackathonEndDate: '2026-08-20T16:30:00',
-  venueShort: 'NASTP Rawalpindi',
-  venueFull: 'National Aerospace Science & Technology Park (NASTP), Old Airport Road, Rawalpindi',
-  mapsUrl: 'https://www.google.com/maps/search/?api=1&query=Noor+Khan+Base+Old+Airport+Road+Rawalpindi',
+  orientationDate: '2026-08-27T10:00:00',
+  orientationEndDate: '2026-08-27T12:00:00',
+  hackathonStartDate: '2026-08-29T08:30:00',
+  hackathonEndDate: '2026-08-29T16:30:00',
+  venueShort: 'CoWork24, Gulberg Greens, Islamabad',
+  venueFull: 'CoWork24, Gulberg Greens, Islamabad',
+  mapsUrl: 'https://maps.app.goo.gl/1qE1eqNyovw2NZEh7',
   fee: 'PKR 4,000',
   feePerTeam: 'per team',
   teamSize: 'Maximum 3 members per team',
@@ -29,10 +29,33 @@ export const ABOUT = {
     "This two-day hackathon brings together talented students, developers, designers, and problem solvers to transform ideas into intelligent solutions through collaboration and technical excellence.",
   ],
   schedule: [
-    { day: 'Day 1', label: 'Online Orientation Session', date: 'August 17, 2026', time: '10:00 AM – 12:00 PM' },
-    { day: 'Day 2', label: 'On-Site Hackathon', date: 'August 20, 2026', time: '08:30 AM – 04:30 PM' },
+    { day: 'Day 1', label: 'Online Orientation Session', date: 'August 27, 2026', time: '10:00 AM to 12:00 AM' },
+    { day: 'Day 2', label: 'On Site Hackathon', date: 'August 29, 2026', time: '08:30 AM to 04:30 PM' },
   ],
 }
+
+export const PRIZES_AND_BENEFITS = {
+  prizePool: 'Cash Prize + Hackviser 1 Month free Subscription',
+  allParticipantsBenefits: [
+    'Physical Certificates',
+    'Refreshments & Snacks',
+    'Hackviser Discount Codes',
+    '30% discount for a 1-month VIP membership on Hackviser',
+  ],
+  top3WinnersBenefits: [
+    '1-month free VIP membership for each team member',
+    '50% discount on the CAPT certification exam voucher for each team member',
+  ],
+}
+
+export const RULES = [
+  'Attendance in On-Campus phase is mandatory.',
+  'Teams are expected to bring their own Laptops to work on. Sitting place, Internet connectivity and electricity connectivity will be supplied by CoWork24.',
+  'Each team will select only ONE problem to work on and develop its solution.',
+  'Teams are allowed to use pre-built libraries, framework or any AI tools. However, no software tools, libraries or hardware will be provided by CoWork24 or Organizing Team (SENSE-IIUI).',
+  'Each project will be evaluated by 3 judges according to pre-defined criteria and rubrics. Decisions made by the judges will be final and binding.',
+  'All judges are from industry.',
+]
 
 export const SPONSOR_BENEFITS = [
   { title: 'Brand Visibility', desc: 'On-stage, on-site, and across all our digital channels.' },

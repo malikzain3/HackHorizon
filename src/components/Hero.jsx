@@ -37,7 +37,7 @@ export default function Hero({ onRegisterClick }) {
 
             <div className="mt-4 flex flex-wrap gap-x-6 gap-y-2 text-sm text-steellight font-mono">
               <span>📍 {EVENT.venueShort}</span>
-              <span>🗓 August 20, 2026</span>
+              <span>🗓 August 27 & 29, 2026</span>
             </div>
 
             <div className="mt-8 flex flex-wrap gap-4">
