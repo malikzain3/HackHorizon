@@ -2,6 +2,10 @@ import { useEffect, useState } from 'react'
 import { EVENT } from '../data/content'
 
 function getPhase() {
+  if (!EVENT.orientationDate || !EVENT.hackathonStartDate) {
+    return { label: 'Dates Extended — To Be Announced Soon', target: null }
+  }
+
   const now = new Date()
   const orientation = new Date(EVENT.orientationDate)
   const orientationEnd = new Date(EVENT.orientationEndDate)

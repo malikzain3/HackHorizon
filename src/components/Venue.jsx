@@ -23,8 +23,8 @@ export default function Venue() {
               </div>
               <div className="card-panel p-5">
                 <p className="text-xs text-steel font-mono mb-1">CHECK-IN</p>
-                <p className="font-display font-bold text-silver">08:30 AM</p>
-                <p className="text-steellight text-xs mt-1">August 20, 2026</p>
+                <p className="font-display font-bold text-silver">To Be Announced</p>
+                <p className="text-steellight text-xs mt-1">Dates Extended</p>
               </div>
             </div>
 

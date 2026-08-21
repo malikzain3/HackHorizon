@@ -2,10 +2,10 @@ export const EVENT = {
   name: "HackHorizon '26",
   tagline: 'Human Intelligence vs Artificial Intelligence',
   subtagline: 'Clash of the Finest — Build. Battle. Innovate.',
-  orientationDate: '2026-08-17T10:00:00',
-  orientationEndDate: '2026-08-17T12:00:00',
-  hackathonStartDate: '2026-08-20T08:30:00',
-  hackathonEndDate: '2026-08-20T16:30:00',
+  orientationDate: null,
+  orientationEndDate: null,
+  hackathonStartDate: null,
+  hackathonEndDate: null,
   venueShort: 'NASTP Rawalpindi',
   venueFull: 'National Aerospace Science & Technology Park (NASTP), Old Airport Road, Rawalpindi',
   mapsUrl: 'https://www.google.com/maps/search/?api=1&query=Noor+Khan+Base+Old+Airport+Road+Rawalpindi',
@@ -29,8 +29,8 @@ export const ABOUT = {
     "This two-day hackathon brings together talented students, developers, designers, and problem solvers to transform ideas into intelligent solutions through collaboration and technical excellence.",
   ],
   schedule: [
-    { day: 'Day 1', label: 'Online Orientation Session', date: 'August 17, 2026', time: '10:00 AM – 12:00 PM' },
-    { day: 'Day 2', label: 'On-Site Hackathon', date: 'August 20, 2026', time: '08:30 AM – 04:30 PM' },
+    { day: 'Day 1', label: 'Online Orientation Session', date: 'To Be Announced Soon', time: 'Dates Extended' },
+    { day: 'Day 2', label: 'On-Site Hackathon', date: 'To Be Announced Soon', time: 'Dates Extended' },
   ],
 }
 
