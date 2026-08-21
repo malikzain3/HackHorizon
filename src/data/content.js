@@ -57,6 +57,8 @@ export const RULES = [
   'All judges are from industry.',
 ]
 
+export const COMMUNITY_PARTNER_FORM_URL = 'https://docs.google.com/forms/d/e/1FAIpQLSdInZLZxfRTK0ee7OVya2xD2R8wxTxRfmF2wYpdF_hHB3ZyWg/viewform'
+
 export const SPONSOR_BENEFITS = [
   { title: 'Brand Visibility', desc: 'On-stage, on-site, and across all our digital channels.' },
   { title: 'Talent Access', desc: 'Direct access to Pakistan\'s sharpest young engineering minds.' },
