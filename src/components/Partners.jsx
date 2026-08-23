@@ -17,6 +17,7 @@ export default function Partners() {
     { name: 'VINCIO Tech', img: '/vincio.jpg' },
     { name: 'Code Voyagers', img: '/codevoyagers.jpg' },
     { name: 'Society Circle', img: '/circle.jpeg' },
+    { name: 'MLSA UET ', img: '/mlsa.jpeg' },
     
   ]
 
