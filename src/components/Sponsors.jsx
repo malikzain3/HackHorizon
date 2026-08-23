@@ -39,6 +39,74 @@ export default function Sponsors({ onSponsorClick }) {
             ⬇ Download Sponsorship Deck
           </a>
         </div>
+
+        {/* Current Sponsors Section */}
+        <div className="mt-16 pt-10 border-t border-steel/20">
+          <Reveal>
+            <p className="section-eyebrow mb-2">Our Backers</p>
+            <h3 className="text-2xl md:text-3xl font-display font-bold text-silver mb-8">
+              Official Event Sponsors
+            </h3>
+          </Reveal>
+
+          <div className="grid md:grid-cols-2 gap-6">
+            {/* Venue Sponsor - CoWork 24 */}
+            <Reveal delay={100}>
+              <div className="bg-panel2/80 border border-electric/30 hover:border-electric transition-all duration-300 rounded-2xl p-6 relative overflow-hidden group shadow-lg shadow-electric/5 flex flex-col sm:flex-row items-center gap-6 h-full">
+                {/* Corner accent glow */}
+                <div className="absolute -top-12 -right-12 w-24 h-24 bg-electric/10 rounded-full blur-xl group-hover:bg-electric/20 transition-all pointer-events-none" />
+
+                {/* Logo Box */}
+                <div className="w-full sm:w-44 h-28 rounded-xl bg-white p-4 flex items-center justify-center shrink-0 shadow-md">
+                  <img
+                    src="/cowork24.png"
+                    alt="CoWork 24"
+                    className="max-w-full max-h-full object-contain"
+                  />
+                </div>
+
+                {/* Details */}
+                <div className="flex-1 text-center sm:text-left">
+                  <span className="inline-block px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-amber-400/10 text-amber-300 border border-amber-400/30 mb-2">
+                    Venue Sponsor
+                  </span>
+                  <h4 className="text-xl font-display font-bold text-silver">CoWork 24</h4>
+                  <p className="text-steellight text-sm mt-1">
+                    Providing high-end workspace and event venue support for builders.
+                  </p>
+                </div>
+              </div>
+            </Reveal>
+
+            {/* Sponsor - Hackviser */}
+            <Reveal delay={200}>
+              <div className="bg-panel2/80 border border-electric/30 hover:border-electric transition-all duration-300 rounded-2xl p-6 relative overflow-hidden group shadow-lg shadow-electric/5 flex flex-col sm:flex-row items-center gap-6 h-full">
+                {/* Corner accent glow */}
+                <div className="absolute -top-12 -right-12 w-24 h-24 bg-emerald-400/10 rounded-full blur-xl group-hover:bg-emerald-400/20 transition-all pointer-events-none" />
+
+                {/* Logo Box */}
+                <div className="w-full sm:w-44 h-28 rounded-xl bg-[#0f1424] border border-steel/20 p-4 flex items-center justify-center shrink-0 shadow-md">
+                  <img
+                    src="/hackviser-logo.png"
+                    alt="Hackviser"
+                    className="max-w-full max-h-full object-contain"
+                  />
+                </div>
+
+                {/* Details */}
+                <div className="flex-1 text-center sm:text-left">
+                  <span className="inline-block px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-emerald-400/10 text-emerald-400 border border-emerald-400/30 mb-2">
+                    Official Sponsor
+                  </span>
+                  <h4 className="text-xl font-display font-bold text-silver">Hackviser</h4>
+                  <p className="text-steellight text-sm mt-1">
+                    Empowering developers and cybersecurity enthusiasts with hands-on learning platform.
+                  </p>
+                </div>
+              </div>
+            </Reveal>
+          </div>
+        </div>
       </div>
     </section>
   )
