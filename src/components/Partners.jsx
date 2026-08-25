@@ -4,7 +4,6 @@ export default function Partners() {
   const partners = [
     
     { name: 'BLACKBOX — IIUI', img: '/Blackbox.jpg' },
-    { name: 'COWORK-24', img: '/cowork24.png',  isVenue:true},
     { name: 'The Computer Science Society', img: '/css.jpg' },
     { name: 'Cyber Infinity RIU', img: '/cyber.jpeg' },
     { name: 'GDGoC IIUI', img: '/GDGoC.png' },

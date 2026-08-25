@@ -6,8 +6,8 @@ export const EVENT = {
   orientationEndDate: '2026-08-27T12:00:00',
   hackathonStartDate: '2026-08-29T08:30:00',
   hackathonEndDate: '2026-08-29T16:30:00',
-  venueShort: 'CoWork24, Gulberg Greens, Islamabad',
-  venueFull: 'CoWork24, Gulberg Greens, Islamabad',
+  venueShort: 'Cowork 24, Gulberg Greens, Islamabad',
+  venueFull: 'Cowork 24, Gulberg Greens, Islamabad',
   mapsUrl: 'https://maps.app.goo.gl/1qE1eqNyovw2NZEh7',
   fee: 'PKR 4,000',
   feePerTeam: 'per team',
@@ -50,9 +50,9 @@ export const PRIZES_AND_BENEFITS = {
 
 export const RULES = [
   'Attendance in On-Campus phase is mandatory.',
-  'Teams are expected to bring their own Laptops to work on. Sitting place, Internet connectivity and electricity connectivity will be supplied by CoWork24.',
+  'Teams are expected to bring their own Laptops to work on. Sitting place, Internet connectivity and electricity connectivity will be supplied by Cowork 24.',
   'Each team will select only ONE problem to work on and develop its solution.',
-  'Teams are allowed to use pre-built libraries, framework or any AI tools. However, no software tools, libraries or hardware will be provided by CoWork24 or Organizing Team (SENSE-IIUI).',
+  'Teams are allowed to use pre-built libraries, framework or any AI tools. However, no software tools, libraries or hardware will be provided by Cowork 24 or Organizing Team (SENSE-IIUI).',
   'Each project will be evaluated by 3 judges according to pre-defined criteria and rubrics. Decisions made by the judges will be final and binding.',
   'All judges are from industry.',
 ]

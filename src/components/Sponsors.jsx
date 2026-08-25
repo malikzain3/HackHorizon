@@ -50,7 +50,7 @@ export default function Sponsors({ onSponsorClick }) {
           </Reveal>
 
           <div className="grid md:grid-cols-2 gap-6">
-            {/* Venue Sponsor - CoWork 24 */}
+            {/* Venue Sponsor - Cowork 24 */}
             <Reveal delay={100}>
               <div className="bg-panel2/80 border border-electric/30 hover:border-electric transition-all duration-300 rounded-2xl p-6 relative overflow-hidden group shadow-lg shadow-electric/5 flex flex-col sm:flex-row items-center gap-6 h-full">
                 {/* Corner accent glow */}
@@ -60,7 +60,7 @@ export default function Sponsors({ onSponsorClick }) {
                 <div className="w-full sm:w-44 h-28 rounded-xl bg-white p-4 flex items-center justify-center shrink-0 shadow-md">
                   <img
                     src="/cowork24.png"
-                    alt="CoWork 24"
+                    alt="Cowork 24"
                     className="max-w-full max-h-full object-contain"
                   />
                 </div>
@@ -70,7 +70,7 @@ export default function Sponsors({ onSponsorClick }) {
                   <span className="inline-block px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-amber-400/10 text-amber-300 border border-amber-400/30 mb-2">
                     Venue Sponsor
                   </span>
-                  <h4 className="text-xl font-display font-bold text-silver">CoWork 24</h4>
+                  <h4 className="text-xl font-display font-bold text-silver">Cowork 24</h4>
                   <p className="text-steellight text-sm mt-1">
                     Providing high-end workspace and event venue support for builders.
                   </p>

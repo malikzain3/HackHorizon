@@ -12,7 +12,7 @@ export default function Venue() {
               Islamabad<span className="text-electric">,</span> Pakistan
             </h2>
             <p className="text-steellight max-w-md mb-6">
-              CoWork24, Gulberg Greens — premier co-working space hosting the on-site phase for HackHorizon '26 with high-speed internet, power connectivity, and modern workstations.
+              Cowork 24, Gulberg Greens — premier co-working space hosting the on-site phase for HackHorizon '26 with high-speed internet, power connectivity, and modern workstations.
             </p>
 
             <div className="grid sm:grid-cols-2 gap-4 mb-6">
@@ -48,7 +48,7 @@ export default function Venue() {
               <path d="M 0 100 L 500 100 M 0 200 L 500 200 M 0 300 L 500 300" stroke="#1478c9" strokeOpacity="0.15" strokeWidth="1" />
               <path d="M 100 0 L 100 380 M 200 0 L 200 380 M 300 0 L 300 380 M 400 0 L 400 380" stroke="#1478c9" strokeOpacity="0.15" strokeWidth="1" />
 
-              {/* CoWork hub building/workspace illustration */}
+              {/* Cowork hub building/workspace illustration */}
               <rect x="150" y="110" width="200" height="180" rx="8" fill="#111827" stroke="#2fb8ff" strokeWidth="2" />
               <rect x="180" y="140" width="40" height="40" rx="4" fill="#1f293d" stroke="#1478c9" strokeWidth="1.5" />
               <rect x="280" y="140" width="40" height="40" rx="4" fill="#1f293d" stroke="#1478c9" strokeWidth="1.5" />
@@ -65,7 +65,7 @@ export default function Venue() {
               <circle cx="250" cy="64" r="2" fill="#2fb8ff" />
 
               <text x="250" y="325" textAnchor="middle" fill="#2fb8ff" fontFamily="monospace" fontSize="13" fontWeight="bold" letterSpacing="1.5">
-                CoWork24, Gulberg Greens
+                Cowork 24, Gulberg Greens
               </text>
               <text x="250" y="348" textAnchor="middle" fill="#8fb0cf" fontFamily="sans-serif" fontSize="11">
                 Islamabad, Pakistan
