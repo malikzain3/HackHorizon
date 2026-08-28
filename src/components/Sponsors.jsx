@@ -134,7 +134,7 @@ export default function Sponsors({ onSponsorClick }) {
                   {/* Details */}
                   <div className="flex-1 text-center sm:text-left">
                     <span className="inline-block px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-yellow-400/10 text-yellow-300 border border-yellow-400/30 mb-2">
-                      Official Snack Sponsor
+                       Snack Sponsor
                     </span>
                     <h4 className="text-xl font-display font-bold text-silver">Korneez</h4>
                     <p className="text-steellight text-sm mt-1">
