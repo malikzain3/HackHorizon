@@ -29,7 +29,7 @@ export default function RegistrationClosedButton({ className = "", isFloating = 
         <div
           onMouseEnter={() => setShowModal(true)}
           onMouseLeave={() => setShowModal(false)}
-          className={`absolute z-50 w-82 p-4 rounded-xl card-panel border-electric/40 bg-void/95 text-left shadow-[0_0_25px_rgba(47,184,255,0.3)] backdrop-blur-md transition-all duration-200 animate-[fadeIn_.2s_ease-in-out] ${
+          className={`absolute z-50 w-62 p-4 rounded-xl card-panel border-electric/40 bg-void/95 text-left shadow-[0_0_25px_rgba(47,184,255,0.3)] backdrop-blur-md transition-all duration-200 animate-[fadeIn_.2s_ease-in-out] ${
             isFloating
               ? "bottom-full right-0 mb-3 fixed sm:absolute"
               : align === "right"
