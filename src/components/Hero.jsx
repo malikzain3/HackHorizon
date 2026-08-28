@@ -12,9 +12,9 @@ export default function Hero({ onRegisterClick }) {
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute -top-20 left-1/3 w-[500px] h-[500px] bg-electric/10 rounded-full blur-[120px]" />
       </div>
-      <div className="max-w-7xl mx-auto w-full overflow-hidden grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center relative">
+      <div className="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center relative">
         <Reveal direction="left">
-          <div className="w-full overflow-hidden ">
+          <div className="w-full">
             <div className="inline-flex max-w-full items-center gap-2 px-3 py-1.5 rounded-full border border-electric/40 mb-6">
               <span className="w-1.5 h-1.5 rounded-full bg-electric animate-pulse" />
               <span className="section-eyebrow break-words">
@@ -42,7 +42,7 @@ export default function Hero({ onRegisterClick }) {
             </div>
 
             <div className="mt-8 flex flex-wrap gap-4 items-center">
-              <RegistrationClosedButton className="px-6 py-3 rounded-lg bg-steel/20 border border-steel/40 text-steel font-display font-bold cursor-not-allowed hover:bg-steel/30 transition-colors" />
+              <RegistrationClosedButton align="left" className="px-6 py-3 rounded-lg bg-steel/20 border border-steel/40 text-steel font-display font-bold cursor-not-allowed hover:bg-steel/30 transition-colors" />
               <a
                 href="#sponsors"
                 className="px-6 py-3 rounded-lg border border-steel/40 text-silver font-semibold hover:border-electric hover:text-electric transition-colors"
