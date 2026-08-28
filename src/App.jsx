@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import EntryModal from './components/EntryModal'
 import Navbar from './components/Navbar'
-import FloatingRegisterButton from './components/FloatingRegisterButton'
 import Hero from './components/Hero'
 import About from './components/About'
 import Sponsors from './components/Sponsors'
@@ -35,7 +34,6 @@ export default function App() {
       <FAQ />
       <Footer />
 
-      <FloatingRegisterButton onClick={openRegistration} />
       <SponsorModal open={sponsorOpen} onClose={() => setSponsorOpen(false)} />
     </div>
   )
