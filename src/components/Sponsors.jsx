@@ -106,6 +106,45 @@ export default function Sponsors({ onSponsorClick }) {
               </div>
             </Reveal>
           </div>
+
+          {/* Official Snack Sponsor Section */}
+          <div className="mt-12 pt-8 border-t border-steel/20">
+            <Reveal>
+              <h3 className="text-2xl md:text-3xl font-display font-bold text-silver mb-8">
+                Official Snack Sponsor
+              </h3>
+            </Reveal>
+
+            <div className="grid md:grid-cols-2 gap-6">
+              {/* Snack Sponsor - Korneez */}
+              <Reveal delay={100}>
+                <div className="bg-panel2/80 border border-electric/30 hover:border-electric transition-all duration-300 rounded-2xl p-6 relative overflow-hidden group shadow-lg shadow-electric/5 flex flex-col sm:flex-row items-center gap-6 h-full">
+                  {/* Corner accent glow */}
+                  <div className="absolute -top-12 -right-12 w-24 h-24 bg-yellow-400/10 rounded-full blur-xl group-hover:bg-yellow-400/20 transition-all pointer-events-none" />
+
+                  {/* Logo Box */}
+                  <div className="w-full sm:w-44 h-28 rounded-xl bg-[#001b79] p-4 flex items-center justify-center shrink-0 shadow-md">
+                    <img
+                      src="/korneez.png"
+                      alt="Korneez"
+                      className="max-w-full max-h-full object-contain"
+                    />
+                  </div>
+
+                  {/* Details */}
+                  <div className="flex-1 text-center sm:text-left">
+                    <span className="inline-block px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-yellow-400/10 text-yellow-300 border border-yellow-400/30 mb-2">
+                      Official Snack Sponsor
+                    </span>
+                    <h4 className="text-xl font-display font-bold text-silver">Korneez</h4>
+                    <p className="text-steellight text-sm mt-1">
+                      Fueling hackathon participants with delicious snacks throughout the event.
+                    </p>
+                  </div>
+                </div>
+              </Reveal>
+            </div>
+          </div>
         </div>
       </div>
     </section>
