@@ -1,7 +1,5 @@
 import { EVENT } from '../data/content'
-
-const REGISTRATION_FORM_URL =
-  'https://docs.google.com/forms/d/e/1FAIpQLSc887ITa9I2rgWcvSNfhCJGJTBZZdso8IWvzjN8OXXKFkkZjQ/viewform'
+import RegistrationClosedButton from './RegistrationClosedButton'
 
 export default function Footer() {
   return (
@@ -34,9 +32,7 @@ export default function Footer() {
           <ul className="space-y-2 text-sm text-steellight">
             <li><a href="#sponsors" className="hover:text-electric">Become a Sponsor</a></li>
             <li>
-              <a href={REGISTRATION_FORM_URL} target="_blank" rel="noopener noreferrer" className="hover:text-electric">
-                Register Now
-              </a>
+              <RegistrationClosedButton className="text-steel hover:text-silver text-sm cursor-not-allowed font-normal p-0 bg-transparent border-0" />
             </li>
           </ul>
         </div>
