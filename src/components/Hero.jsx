@@ -1,6 +1,7 @@
 import { EVENT } from "../data/content";
 import Countdown from "./Countdown";
 import Reveal from "./Reveal";
+import RegistrationClosedButton from "./RegistrationClosedButton";
 
 export default function Hero({ onRegisterClick }) {
   return (
@@ -40,13 +41,8 @@ export default function Hero({ onRegisterClick }) {
               <span>🗓 August 27 & 29, 2026</span>
             </div>
 
-            <div className="mt-8 flex flex-wrap gap-4">
-              <button
-                onClick={onRegisterClick}
-                className="px-6 py-3 rounded-lg bg-electric text-void font-display font-bold hover:bg-electric2 transition-colors"
-              >
-                Register Now →
-              </button>
+            <div className="mt-8 flex flex-wrap gap-4 items-center">
+              <RegistrationClosedButton className="px-6 py-3 rounded-lg bg-steel/20 border border-steel/40 text-steel font-display font-bold cursor-not-allowed hover:bg-steel/30 transition-colors" />
               <a
                 href="#sponsors"
                 className="px-6 py-3 rounded-lg border border-steel/40 text-silver font-semibold hover:border-electric hover:text-electric transition-colors"

@@ -35,20 +35,30 @@ export default function EntryModal() {
         <h2 className="font-display font-extrabold text-2xl md:text-3xl leading-tight mb-2">
           REGISTRATIONS
           <br />
-          <span className="text-electric">OPEN</span>
+          <span className="text-alert">CLOSED</span>
         </h2>
         <div className="h-px bg-gradient-to-r from-transparent via-electric/60 to-transparent my-4" />
         <p className="text-steellight text-sm mb-6">
-          Be part of Pakistan's Human vs AI hackathon showdown.
+          Registrations for HackHorizon '26 are now closed.
         </p>
-        <a
-          href={REGISTRATION_FORM_URL}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-block w-full py-3 rounded-lg bg-electric text-void font-display font-bold tracking-wide hover:bg-electric2 transition-colors"
-        >
-          REGISTER NOW »
-        </a>
+        <div className="w-full bg-panel2 border border-steel/30 rounded-lg p-4 text-left space-y-2">
+          <p className="text-xs text-steellight font-mono">Pls contact:</p>
+          <p className="font-bold text-silver text-sm">Saif-ur-Rehman Awan</p>
+          <p className="text-steellight text-xs leading-snug">
+            Cheif Organizer Hackathon, Vice President SENSE-IIUI
+          </p>
+          <p className="text-electric font-mono text-xs pt-1">
+            Whatsapp:{" "}
+            <a
+              href="https://wa.me/923216776046"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline hover:text-electric2"
+            >
+              03216776046
+            </a>
+          </p>
+        </div>
         <p className="mt-4 text-xs text-steel font-mono">#HackHorizon26</p>
       </div>
     </div>

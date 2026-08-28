@@ -1,4 +1,5 @@
 import { useState } from "react";
+import RegistrationClosedButton from "./RegistrationClosedButton";
 
 const LINKS = [
   { label: "About", href: "#about" },
@@ -45,9 +46,7 @@ export default function Navbar({ onSponsorClick, onRegisterClick }) {
           >
             Become a Sponsor
           </button>
-          <button onClick={onRegisterClick} className="flex items-center gap-2 px-5 py-2.5 rounded-lg bg-[#7DF9FF] text-black font-bold shadow-[0_0_10px_#7DF9FF] hover:text-electric hover:shadow-[0_0_24px_#7DF9FF] transition-all duration-300">
-            Register Now
-          </button>
+          <RegistrationClosedButton align="right" />
         </div>
 
         <button
@@ -82,15 +81,9 @@ export default function Navbar({ onSponsorClick, onRegisterClick }) {
           >
             Become a Sponsor
           </button>
-          <button
-            onClick={() => {
-              setMenuOpen(false);
-              onRegisterClick();
-            }}
-            className="px-4 py-2.5 rounded-lg bg-electric text-void font-bold text-left"
-          >
-            Register Now
-          </button>
+          <div className="pt-1">
+            <RegistrationClosedButton className="w-full px-4 py-2.5 rounded-lg bg-steel/20 border border-steel/40 text-steel font-bold text-left cursor-not-allowed text-sm" />
+          </div>
         </div>
       )}
     </header>
